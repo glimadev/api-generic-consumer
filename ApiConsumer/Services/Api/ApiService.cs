@@ -41,5 +41,10 @@ namespace ApiConsumer.Services.Api
 
             return responseService;
         }
+
+        public Task<T> Post(string controller, string action, string data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
